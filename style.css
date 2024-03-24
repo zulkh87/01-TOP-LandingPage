@@ -160,3 +160,17 @@ img+p{
     color: #F9FAF8;
 }
 
+footer{
+    background-color: #1F2937;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
