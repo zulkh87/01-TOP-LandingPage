@@ -132,3 +132,31 @@ img+p{
     font-weight: 900;
     margin-bottom: 20px;
 }
+
+.call-to-action{
+    background-color: #3882F6;
+    margin: 150px 300px;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+}
+
+.call-to-action-left p{
+    color: #F9FAF8;
+}
+
+.call-to-action-left > :first-child{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.call-to-action-button{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
