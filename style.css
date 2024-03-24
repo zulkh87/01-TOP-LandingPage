@@ -76,3 +76,38 @@ h1{
     align-self: start;
     margin-left: 140px;
 }
+
+.image-container-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container-section h3{
+    text-align: center;
+    margin: 22px 0px 44px 0px;
+    font-weight: bolder;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.border-style-img{
+    border-radius: 9px;
+    border: 5px solid darkolivegreen;
+}
+
+img+p{
+    font-size: 12px;
+    width: 150px;
+    text-align: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+}
+
