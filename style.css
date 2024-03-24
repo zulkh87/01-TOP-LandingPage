@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #1F2937;
+}
+
+.header-h1{
+    margin-left: 50px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links{
+    padding-right: 50px;
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+.header-links a{
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
